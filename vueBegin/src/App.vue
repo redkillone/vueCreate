@@ -1,16 +1,14 @@
 <script>
-  export default {
-    data() {
-      return {
-        num: 100
-      }
-    }
-  }
+  
 </script>
 
 <template>
   <div>
-    <p>{{ num }}</p>
+    <h2>AppVue</h2>
+    <router-link to="/">Home</router-link>
+    <br>
+    <router-link to="/about">About</router-link>
+    <router-view></router-view>
   </div>
 </template>
 
